@@ -12,10 +12,7 @@
 		1457E7F21E01B4C30083FFF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1457E7F01E01B4C30083FFF3 /* Main.storyboard */; };
 		1457E7F41E01B4C30083FFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1457E7F31E01B4C30083FFF3 /* Assets.xcassets */; };
 		1457E7F71E01B4C30083FFF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1457E7F51E01B4C30083FFF3 /* LaunchScreen.storyboard */; };
-		1457E7FF1E01B56B0083FFF3 /* ButtonLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1457E7FE1E01B56B0083FFF3 /* ButtonLayer.swift */; };
 		1457E8011E01BAAA0083FFF3 /* DynamicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1457E8001E01BAAA0083FFF3 /* DynamicButton.swift */; };
-		1457E8031E01BB4D0083FFF3 /* DynamicButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1457E8021E01BB4D0083FFF3 /* DynamicButtonDelegate.swift */; };
-		1457E8051E01BCE10083FFF3 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1457E8041E01BCE10083FFF3 /* ButtonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +23,7 @@
 		1457E7F31E01B4C30083FFF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1457E7F61E01B4C30083FFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1457E7F81E01B4C30083FFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1457E7FE1E01B56B0083FFF3 /* ButtonLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonLayer.swift; sourceTree = "<group>"; };
 		1457E8001E01BAAA0083FFF3 /* DynamicButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButton.swift; sourceTree = "<group>"; };
-		1457E8021E01BB4D0083FFF3 /* DynamicButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonDelegate.swift; sourceTree = "<group>"; };
-		1457E8041E01BCE10083FFF3 /* ButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +58,7 @@
 			children = (
 				1457E7EC1E01B4C30083FFF3 /* AppDelegate.swift */,
 				1457E7EE1E01B4C30083FFF3 /* ViewController.swift */,
-				1457E7FE1E01B56B0083FFF3 /* ButtonLayer.swift */,
 				1457E8001E01BAAA0083FFF3 /* DynamicButton.swift */,
-				1457E8041E01BCE10083FFF3 /* ButtonCell.swift */,
-				1457E8021E01BB4D0083FFF3 /* DynamicButtonDelegate.swift */,
 				1457E7F01E01B4C30083FFF3 /* Main.storyboard */,
 				1457E7F31E01B4C30083FFF3 /* Assets.xcassets */,
 				1457E7F51E01B4C30083FFF3 /* LaunchScreen.storyboard */,
@@ -149,12 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1457E7FF1E01B56B0083FFF3 /* ButtonLayer.swift in Sources */,
 				1457E7EF1E01B4C30083FFF3 /* ViewController.swift in Sources */,
 				1457E7ED1E01B4C30083FFF3 /* AppDelegate.swift in Sources */,
-				1457E8031E01BB4D0083FFF3 /* DynamicButtonDelegate.swift in Sources */,
 				1457E8011E01BAAA0083FFF3 /* DynamicButton.swift in Sources */,
-				1457E8051E01BCE10083FFF3 /* ButtonCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +304,7 @@
 				1457E7FD1E01B4C30083FFF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
